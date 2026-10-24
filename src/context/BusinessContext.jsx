@@ -7,7 +7,15 @@ export function BusinessProvider({ children }) {
   const [businessInfo, setBusinessInfo] = useState(() => {
     try {
       const saved = localStorage.getItem('demo_business_info');
-      return saved ? JSON.parse(saved) : DEFAULT_BUSINESS_INFO;
+      if (saved) {
+        const parsed = JSON.parse(saved);
+        if (parsed.name && parsed.name.includes('Nuur Rahma')) {
+          localStorage.removeItem('demo_business_info');
+          return DEFAULT_BUSINESS_INFO;
+        }
+        return parsed;
+      }
+      return DEFAULT_BUSINESS_INFO;
     } catch {
       return DEFAULT_BUSINESS_INFO;
     }
@@ -43,7 +51,7 @@ export function BusinessProvider({ children }) {
 
   // Helper WhatsApp generator
   const getWhatsAppLink = (message) => {
-    let cleanNumber = (businessInfo.whatsapp || '087770055530').replace(/[^0-9]/g, '');
+    let cleanNumber = (businessInfo.whatsapp || DEFAULT_BUSINESS_INFO.whatsapp).replace(/[^0-9]/g, '');
     if (cleanNumber.startsWith('0')) {
       cleanNumber = '62' + cleanNumber.slice(1);
     }

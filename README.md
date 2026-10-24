@@ -1,8 +1,8 @@
-# 🐐 Web Template Aqiqah & Katering Nusantara (Aqiqah Nuur Rahma Semarang)
+# 🐐 Web Template Aqiqah & Katering Nusantara (Aila Aqiqah Semarang)
 
 Website modern, elegan, responsif, dan siap produksi untuk UMKM jasa **Aqiqah & Katering Siap Saji**, dikembangkan dengan **React 19**, **Vite**, dan **Tailwind CSS**. Didesain khusus sebagai showcase template profesional dengan tingkat konversi tinggi untuk menawarkan jasa pembuatan website ke calon klien UMKM.
 
-Website ini menggunakan profil usaha nyata dari Google Maps: **Aqiqah Nuur Rahma Semarang** ([Lihat Profil Google Maps](https://maps.app.goo.gl/ncg1txdCavAjN6Dr5)).
+Website ini menggunakan profil usaha nyata dari Google Maps: **Aila Aqiqah Semarang** ([Lihat Profil Google Maps](https://maps.app.goo.gl/hjrevRj3j28hUHZZ9)).
 
 ---
 
@@ -29,11 +29,11 @@ Website ini menggunakan profil usaha nyata dari Google Maps: **Aqiqah Nuur Rahma
 4. **🛡️ 7 Keunggulan Syariat & Layanan**:
    - Standar hewan poel/sehat, Juru Sembelih Halal (JULEHA), video dokumentasi HD atas nama anak, garansi tanpa bau prengus, free ongkir, sertifikat berbingkai, dan penyaluran amanah.
 
-5. **⭐ Ulasan Google Maps Terverifikasi (Rating 4.9 / 5.0)**:
-   - Menampilkan ulasan autentik dari warga Semarang Barat, Ngaliyan, Kaliwungu, dan Boja Kendal lengkap dengan link langsung ke Google Maps.
+5. **⭐ Ulasan Google Maps Terverifikasi (Rating 5.0 / 5.0)**:
+   - Menampilkan ulasan autentik dari warga Kota Semarang (Gunungpati, Banyumanik, Tembalang, Mijen) lengkap dengan link langsung ke Google Maps.
 
 6. **📍 Lokasi Kantor & Peta Interaktif**:
-   - Terintegrasi iframe Google Maps lokasi Jl. Prof. Dr. Hamka No. 04 Ngaliyan (Depan Kampus 3 UIN Walisongo Semarang).
+   - Terintegrasi iframe Google Maps lokasi Sadeng, Kec. Gunungpati, Kota Semarang (Kandang Sendiri).
 
 7. **📱 Mobile-First & Floating WhatsApp**:
    - Tampilan responsif di semua perangkat (smartphone, tablet, laptop).
@@ -97,11 +97,11 @@ git push -u origin main
 
 ---
 
-## 📋 Informasi Profil Usaha (Aqiqah Nuur Rahma)
-- **Nama Usaha**: Aqiqah Nuur Rahma & Katering Semarang
-- **Alamat**: Jl. Prof. Dr. Hamka No. 04, RT. 04 / RW. 09, Purwoyoso, Kec. Ngaliyan, Kota Semarang, Jawa Tengah 50184 (Depan Kampus 3 UIN Walisongo Semarang)
-- **Jam Buka**: Setiap Hari 08.30 – 16.00 WIB
-- **WhatsApp**: 0877-7005-5530
-- **Instagram**: [@aqiqahnuurrahma](https://instagram.com/aqiqahnuurrahma)
-- **Cakupan Free Ongkir**: Kota Semarang, Kendal, Kaliwungu, Boja, Mijen, Mangkang, dsb.
-- **Link Google Maps**: [https://maps.app.goo.gl/ncg1txdCavAjN6Dr5](https://maps.app.goo.gl/ncg1txdCavAjN6Dr5)
+## 📋 Informasi Profil Usaha (Aila Aqiqah Semarang)
+- **Nama Usaha**: Aila Aqiqah Semarang
+- **Alamat**: Kelurahan Sadeng, Kecamatan Gunungpati, Kota Semarang, Jawa Tengah 50222 (Kandang Sendiri di Sadeng)
+- **Jam Buka**: Setiap Hari 07.00 – 17.00 WIB
+- **WhatsApp**: 0823-2359-4374
+- **Instagram**: [@aila.aqiqah](https://instagram.com/aila.aqiqah)
+- **Cakupan Free Ongkir**: Kota Semarang (Gunungpati, Banyumanik, Mijen, Tembalang, Ngaliyan), Ungaran / Kab. Semarang sekitarnya.
+- **Link Google Maps**: [https://maps.app.goo.gl/hjrevRj3j28hUHZZ9](https://maps.app.goo.gl/hjrevRj3j28hUHZZ9)

@@ -90,15 +90,15 @@ export default function DemoCustomizer() {
               <button
                 type="button"
                 onClick={() => applyPreset(
-                  'Aqiqah Nuur Rahma',
-                  '087770055530',
+                  'Aila Aqiqah Semarang',
+                  '082323594374',
                   'Kota Semarang',
-                  'Jl. Prof. Dr. Hamka No. 04 Ngaliyan, Semarang'
+                  'Sadeng, Kec. Gunungpati, Kota Semarang'
                 )}
                 className="p-2.5 text-left rounded-lg border border-stone-200 hover:border-emerald-600 hover:bg-emerald-50/50 transition font-medium"
               >
-                <span className="font-bold text-emerald-800 block">Nuur Rahma (Default)</span>
-                <span className="text-stone-500 text-[11px]">Semarang & Kendal</span>
+                <span className="font-bold text-emerald-800 block">Aila Aqiqah (Default)</span>
+                <span className="text-stone-500 text-[11px]">Gunungpati & Semarang</span>
               </button>
 
               <button
@@ -155,7 +155,7 @@ export default function DemoCustomizer() {
                   value={tempWa}
                   onChange={(e) => setTempWa(e.target.value)}
                   className="w-full px-3.5 py-2 rounded-xl border border-stone-300 focus:outline-none focus:ring-2 focus:ring-emerald-600 focus:border-transparent text-stone-800"
-                  placeholder="0877-7005-5530"
+                  placeholder="0823-2359-4374"
                   required
                 />
                 <span className="text-[10px] text-stone-500">Semua tombol checkout WA akan terhubung ke nomor ini.</span>

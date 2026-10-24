@@ -23,7 +23,7 @@ export default function AnnouncementBar() {
         <div className="flex items-center gap-3">
           <div className="hidden lg:flex items-center gap-1.5 text-emerald-300 text-xs">
             <MapPin className="w-3.5 h-3.5 text-amber-400" />
-            <span>Ngaliyan, Semarang (Depan UIN Walisongo 3)</span>
+            <span>Sadeng, Gunungpati, Semarang (Kandang Sendiri)</span>
           </div>
 
           <div className="h-3 w-px bg-emerald-700 hidden lg:block" />

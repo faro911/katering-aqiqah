@@ -22,7 +22,7 @@ export default function Hero() {
             <div className="inline-flex flex-wrap items-center justify-center lg:justify-start gap-2">
               <span className="inline-flex items-center gap-1.5 bg-amber-400/20 text-amber-300 border border-amber-400/30 px-3 py-1 rounded-full text-xs font-bold uppercase tracking-wider">
                 <Sparkles className="w-3.5 h-3.5 text-amber-400" />
-                Pilihan Terbaik di Semarang & Kendal
+                Pilihan Terbaik di Kota Semarang
               </span>
               <span className="inline-flex items-center gap-1.5 bg-emerald-800/80 text-emerald-200 border border-emerald-700 px-3 py-1 rounded-full text-xs font-semibold">
                 <ShieldCheck className="w-3.5 h-3.5 text-emerald-400" />
@@ -96,7 +96,7 @@ export default function Hero() {
                 </div>
                 <div className="text-left">
                   <span className="font-bold text-white group-hover:underline">Rating {businessInfo.stats.googleRating} / 5.0</span>
-                  <span className="text-emerald-300 block text-[11px]">(140+ Ulasan Google Maps)</span>
+                  <span className="text-emerald-300 block text-[11px]">({businessInfo.stats.totalReviews} Ulasan Google Maps)</span>
                 </div>
               </a>
 
@@ -122,7 +122,7 @@ export default function Hero() {
                 <div className="aspect-[4/3] w-full relative overflow-hidden">
                   <img
                     src="https://images.unsplash.com/photo-1544025162-d76694265947?w=800&auto=format&fit=crop&q=80"
-                    alt="Sajian Sate Kambing dan Nasi Box Aqiqah Nuur Rahma"
+                    alt="Sajian Sate Kambing dan Nasi Box Aila Aqiqah Semarang"
                     className="w-full h-full object-cover transform hover:scale-105 transition-transform duration-700"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-emerald-950 via-emerald-950/20 to-transparent" />
@@ -146,7 +146,7 @@ export default function Hero() {
                   <div className="flex items-center justify-between text-xs text-emerald-200 pb-3 border-b border-emerald-800">
                     <span className="flex items-center gap-1.5">
                       <Truck className="w-3.5 h-3.5 text-amber-400" />
-                      Free Delivery Semarang - Kendal
+                      Free Delivery Area Semarang
                     </span>
                     <span className="bg-emerald-800 text-emerald-200 px-2 py-0.5 rounded font-medium text-[11px]">
                       Siap Antar Hangat
@@ -182,7 +182,7 @@ export default function Hero() {
                     ))}
                   </div>
                   <p className="font-bold text-stone-900 leading-tight">"Makanannya sedap, tidak prengus sama sekali!"</p>
-                  <p className="text-stone-500 text-[10px]">Ibu Rahayu - Kaliwungu</p>
+                  <p className="text-stone-500 text-[10px]">Ibu Rahayu - Banyumanik</p>
                 </div>
               </div>
 

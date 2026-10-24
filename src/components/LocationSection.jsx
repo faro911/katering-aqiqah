@@ -16,10 +16,10 @@ export default function LocationSection() {
             Lokasi Dapur & Kantor
           </div>
           <h2 className="text-2xl sm:text-4xl font-extrabold text-stone-900 tracking-tight">
-            Kunjungi Kami di Ngaliyan, Semarang
+            Kunjungi Kami di Sadeng, Gunungpati, Semarang
           </h2>
           <p className="text-stone-600 text-sm sm:text-base">
-            Kantor dan dapur kami mudah dijangkau tepat di seberang Kampus 3 UIN Walisongo Semarang. Anda juga dipersilakan berkunjung ke kandang mitra kami.
+            Kantor dan kandang kami mudah dijangkau di Sadeng, Gunungpati Semarang. Anda dipersilakan berkunjung langsung untuk memilih dan menimbang hewan aqiqah.
           </p>
         </div>
 
@@ -106,8 +106,8 @@ export default function LocationSection() {
           <div className="lg:col-span-7 h-full min-h-[380px] bg-white rounded-3xl overflow-hidden border border-stone-200 shadow-sm relative flex flex-col justify-between">
             {/* Google Maps Embed iframe with safety check */}
             <iframe
-              title="Lokasi Google Maps Aqiqah Nuur Rahma"
-              src="https://maps.google.com/maps?q=Jl.+Prof.+Dr.+Hamka+No.+04+Ngaliyan+Semarang&t=&z=15&ie=UTF8&iwloc=&output=embed"
+              title={`Lokasi Google Maps ${businessInfo.name}`}
+              src={`https://maps.google.com/maps?q=${encodeURIComponent(businessInfo.mapsEmbedQuery || 'Aila+Aqiqah+Semarang')}&t=&z=15&ie=UTF8&iwloc=&output=embed`}
               className="w-full h-80 sm:h-96 border-0"
               allowFullScreen=""
               loading="lazy"
@@ -118,7 +118,7 @@ export default function LocationSection() {
             <div className="p-4 bg-white border-t border-stone-100 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs">
               <div className="flex items-center gap-2 text-stone-600">
                 <CheckCircle2 className="w-4 h-4 text-emerald-600 shrink-0" />
-                <span>Terdaftar resmi di Google Bisnisku dengan 140+ ulasan bintang 5</span>
+                <span>Terdaftar resmi di Google Bisnisku dengan {businessInfo.stats.totalReviews} ulasan bintang {businessInfo.stats.googleRating}</span>
               </div>
               <a
                 href={businessInfo.googleMapsUrl}

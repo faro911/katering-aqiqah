@@ -1,24 +1,30 @@
-// Data informasi usaha & katalog Aqiqah Nuur Rahma & Katering
+// Data informasi usaha & katalog Aila Aqiqah Semarang & Katering
 
 export const DEFAULT_BUSINESS_INFO = {
-  name: "Aqiqah Nuur Rahma",
-  tagline: "Layanan Aqiqah & Katering Siap Saji Semarang - Kendal",
-  slogan: "Syar'i, Higienis, Lezat Tanpa Bau Prengus & Berkah",
-  address: "Jl. Prof. Dr. Hamka No. 04, RT. 04 / RW. 09, Purwoyoso, Kec. Ngaliyan, Kota Semarang, Jawa Tengah 50184",
-  addressNote: "Tepat di Depan Kampus 3 UIN Walisongo Semarang",
-  whatsapp: "087770055530",
-  whatsappDisplay: "0877-7005-5530",
-  instagram: "@aqiqahnuurrahma",
-  instagramUrl: "https://instagram.com/aqiqahnuurrahma",
-  googleMapsUrl: "https://maps.app.goo.gl/ncg1txdCavAjN6Dr5",
-  mapsEmbedQuery: "Aqiqah+Nuur+Rahma+Semarang",
-  openingHours: "Setiap Hari 08.30 – 16.00 WIB",
-  deliveryAreas: ["Kota Semarang", "Kendal & Kaliwungu", "Boja & Mijen", "Mangkang & Ngaliyan", "Kabupaten Semarang", "Demak & Sekitarnya"],
+  name: "Aila Aqiqah Semarang",
+  tagline: "Layanan Aqiqah & Katering Siap Saji Semarang",
+  slogan: "Syar'i, Higienis, Masakan Lezat Tanpa Bau Prengus & Berkah",
+  address: "Kelurahan Sadeng, Kecamatan Gunungpati, Kota Semarang, Jawa Tengah 50222",
+  addressNote: "Kandang Sendiri di Sadeng Gunungpati (Bisa Pilih & Timbang Langsung)",
+  whatsapp: "082323594374",
+  whatsappDisplay: "0823-2359-4374",
+  instagram: "@aila.aqiqah",
+  instagramUrl: "https://instagram.com/aila.aqiqah",
+  googleMapsUrl: "https://maps.app.goo.gl/hjrevRj3j28hUHZZ9",
+  mapsEmbedQuery: "Aila+Aqiqah+Semarang+Sadeng+Gunungpati",
+  openingHours: "Setiap Hari 07.00 – 17.00 WIB",
+  deliveryAreas: [
+    "Kota Semarang",
+    "Gunungpati & Sadeng",
+    "Banyumanik & Tembalang",
+    "Mijen & Ngaliyan",
+    "Ungaran & Kab. Semarang"
+  ],
   stats: {
-    satisfiedClients: "1.950+",
-    googleRating: "4.9",
-    totalReviews: "148+",
-    experienceYears: "8+"
+    satisfiedClients: "1.250+",
+    googleRating: "5.0",
+    totalReviews: "60+",
+    experienceYears: "5+"
   }
 };
 
@@ -32,10 +38,10 @@ export const ADVANTAGES = [
   },
   {
     id: 2,
-    title: "Bisa Pilih & Timbang Sendiri",
-    desc: "Shohibul aqiqah dipersilakan datang ke kandang mitra kami untuk memilih langsung domba/kambing yang disukai.",
+    title: "Punya Kandang Sendiri di Gunungpati",
+    desc: "Shohibul aqiqah dipersilakan datang langsung ke kandang kami di Sadeng, Gunungpati untuk memilih dan menimbang langsung kambing yang disukai.",
     icon: "Eye",
-    badge: "Transparan"
+    badge: "Kandang Sendiri"
   },
   {
     id: 3,
@@ -47,14 +53,14 @@ export const ADVANTAGES = [
   {
     id: 4,
     title: "Masakan Lezat Tanpa Bau Prengus",
-    desc: "Daging diolah dengan resep rempah nusantara khas Nuur Rahma. Tekstur daging empuk meresap dan dijamin bebas bau prengus.",
+    desc: "Daging diolah dengan resep bumbu rempah nusantara khas Aila Aqiqah dengan cita rasa rumahan yang empuk dan bebas bau prengus.",
     icon: "Utensils",
     badge: "Koki Ahli"
   },
   {
     id: 5,
-    title: "Gratis Ongkir Sampai Depan Rumah",
-    desc: "Layanan antar tepat waktu dengan armada khusus untuk wilayah Semarang, Kendal, Kaliwungu, Ngaliyan, dan sekitarnya.",
+    title: "Gratis Ongkir Area Semarang",
+    desc: "Layanan antar tepat waktu dengan armada khusus untuk wilayah Kota Semarang (Gunungpati, Banyumanik, Mijen, Ngaliyan, Tembalang) dan sekitarnya.",
     icon: "Truck",
     badge: "Free Delivery"
   },
@@ -68,7 +74,7 @@ export const ADVANTAGES = [
   {
     id: 7,
     title: "Penyaluran ke Panti Asuhan / Dhuafa",
-    desc: "Bagi yang ingin langsung bersedekah, kami siap menyalurkan masakan aqiqah ke panti asuhan atau pesantren binaan.",
+    desc: "Bagi yang ingin langsung bersedekah, kami siap menyalurkan masakan aqiqah ke panti asuhan atau pesantren binaan di Semarang.",
     icon: "HeartHandshake",
     badge: "Penyaluran Amanah"
   }
@@ -98,7 +104,7 @@ export const PACKAGES = [
       "Kerupuk Udang Gurih & Buah Segar",
       "Sertifikat Aqiqah Eksklusif + Pigura",
       "Risalah Doa & Stiker Nama Anak di Tiap Box",
-      "Gratis Ongkir Area Semarang & Kendal*"
+      "Gratis Ongkir Area Semarang*"
     ]
   },
   {
@@ -124,7 +130,7 @@ export const PACKAGES = [
       "Buah Pisang / Jeruk Segar",
       "Sertifikat Pigura + Souvenir Boneka Domba",
       "Video & Foto Dokumentasi Penyembelihan",
-      "Gratis Ongkir Area Semarang & Kendal*"
+      "Gratis Ongkir Area Semarang*"
     ]
   },
   {
@@ -168,14 +174,14 @@ export const PACKAGES = [
     includes: [
       "1 Ekor Kambing Super Jantan Bobot Maksimal",
       "100 Box Nasi Premium Sekat 5",
-      "400 Tusuk Sate Bumbu Spesial Nuur Rahma",
+      "400 Tusuk Sate Bumbu Spesial Aila Aqiqah",
       "100 Porsi Gule/Tongseng/Krengsengan Rempah",
       "Pilihan Menu Pendamping Komplit",
       "Acar Nanas Segar, Emping Melinjo, Buah",
       "Sertifikat Mewah + Pigura Kayu Elegan",
       "Boneka Maskot Domba & Kartu Ucapan",
       "Video Penyembelihan Resolusi Tinggi (HD)",
-      "Layanan Prioritas & Gratis Antar Semarang-Kendal"
+      "Layanan Prioritas & Gratis Antar Semarang"
     ]
   },
 
@@ -183,7 +189,7 @@ export const PACKAGES = [
   {
     id: "kebuli-istimewa",
     category: "kebuli",
-    name: "Paket Nasi Kebuli Kambing Nuur Rahma",
+    name: "Paket Nasi Kebuli Kambing Aila Aqiqah",
     badge: "Menu Khas Timur Tengah",
     popular: true,
     price: 2750000,
@@ -395,7 +401,7 @@ export const GALLERY_ITEMS = [
   },
   {
     id: 5,
-    title: "Hewan Sehat di Kandang Mitra",
+    title: "Kandang Sendiri di Sadeng Gunungpati",
     category: "Kandang & Hewan",
     image: "https://images.unsplash.com/photo-1484557052118-f32bd25b45b5?w=800&auto=format&fit=crop&q=80",
     desc: "Kambing & domba terawat bersih, sehat, bebas cacat dan cukup umur."
@@ -414,44 +420,44 @@ export const TESTIMONIALS = [
     id: 1,
     name: "dr. Muhammad Firdaus, Sp.A",
     role: "Shohibul Aqiqah Putra Pertama",
-    location: "Ngaliyan, Semarang Barat",
+    location: "Gunungpati, Semarang",
     rating: 5,
     date: "1 minggu lalu (Google Review)",
     avatar: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
-    review: "Alhamdulillah sangat puas dengan Aqiqah Nuur Rahma! Sate dan gulenya benar-benar tidak bau prengus sama sekali, tamu dan keluarga besar pada muji enaknya. Video sembelih dikirim lengkap dengan nama anak saya. Sukses selalu untuk tim!",
+    review: "Alhamdulillah sangat puas dengan Aila Aqiqah! Sangat transparan karena bisa pilih kambing langsung di kandang Sadeng. Sate dan gulenya benar-benar enak, tidak bau prengus sama sekali, bumbu meresap mantap. Video sembelih dikirim lengkap dengan nama anak. Sukses terus untuk Aila Aqiqah!",
     packageOrdered: "Paket Nasi Box Standar 60 Box"
   },
   {
     id: 2,
     name: "Ibu Rahayu Kusumaningrum",
     role: "Shohibul Aqiqah Putri Kedua",
-    location: "Kaliwungu, Kendal",
+    location: "Banyumanik, Semarang",
     rating: 5,
     date: "3 minggu lalu (Google Review)",
     avatar: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150&auto=format&fit=crop&q=80",
-    review: "Awalnya ragu pesan online, tapi lokasinya pas di seberang Kampus 3 UIN Walisongo jadi langsung mampir ke kantornya. Pelayanannya ramah banget, gratis ongkir sampai ke Kaliwungu Kendal dan datangnya tepat waktu pas jam makan siang. Dapat sertifikat berbingkai cantik pula.",
+    review: "Pelayanannya ramah banget dan fast respon di WhatsApp. Gratis ongkir sampai ke Banyumanik dan datangnya tepat waktu sebelum acara mulai. Rasanya seperti masakan rumahan yang otentik dan gurih. Dapat sertifikat berbingkai cantik pula.",
     packageOrdered: "Paket Nasi Kebuli 60 Box"
   },
   {
     id: 3,
     name: "Bpk. Hendro Prasetyo, S.Kom",
     role: "Katering Syukuran Kantor & Aqiqah",
-    location: "Semarang Kota",
+    location: "Tembalang, Semarang",
     rating: 5,
     date: "1 bulan lalu (Google Review)",
     avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
-    review: "Sudah order 2 kali di sini, pertama waktu aqiqah anak kembar (pesan 2 kambing), kedua untuk katering syukuran kantor. Makanannya konsisten sedap, kemasan box rapi higienis, porsi pas kenyang. Recommended banget buat warga Semarang dan Kendal!",
+    review: "Sudah order 2 kali di Aila Aqiqah, pertama waktu aqiqah anak kembar, kedua untuk katering syukuran kantor di Tembalang. Makanannya konsisten sedap, porsi mantap, bento box rapi higienis. Recommended banget buat warga Semarang!",
     packageOrdered: "Paket Nasi Box Sultan 100 Box"
   },
   {
     id: 4,
     name: "Ustadz H. Ahmad Baihaqi",
     role: "Tokoh Masyarakat & Pelanggan Setia",
-    location: "Boja, Kendal",
+    location: "Sadeng / Mijen, Semarang",
     rating: 5,
     date: "2 bulan lalu (Google Review)",
     avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&auto=format&fit=crop&q=80",
-    review: "Dari segi syariat penyembelihan sangat tertib, bacaan basmalah & takbir jelas menyebutkan nama anak. Dagingnya bersih, bumbunya medok meresap. InsyaAllah berkah untuk keluarga kami.",
+    review: "Dari segi syariat penyembelihan sangat tertib, bacaan basmalah & takbir jelas menyebutkan nama anak. Dagingnya bersih, bumbunya medok meresap. Kandangnya bersih dan hewannya sehat poel. InsyaAllah berkah.",
     packageOrdered: "Paket Kambing Masak Tipe Super"
   }
 ];
@@ -465,8 +471,8 @@ export const ORDER_STEPS = [
   },
   {
     step: "02",
-    title: "Pilih Hewan & Jadwal",
-    desc: "Tentukan tanggal penyembelihan dan pengantaran. Anda bisa memilih hewan langsung atau mempercayakan kepada tim kami.",
+    title: "Pilih Hewan di Kandang & Jadwal",
+    desc: "Tentukan tanggal penyembelihan. Anda bisa memilih langsung hewan di kandang kami di Sadeng Gunungpati atau dipercayakan ke tim kami.",
     icon: "CalendarCheck"
   },
   {
@@ -478,7 +484,7 @@ export const ORDER_STEPS = [
   {
     step: "04",
     title: "Antar Tepat Waktu & Santap",
-    desc: "Pesanan diantar langsung dalam kondisi hangat dan rapi ke alamat rumah Anda, siap dibagikan dengan penuh keberkahan.",
+    desc: "Pesanan diantar langsung dalam kondisi hangat dan rapi ke alamat rumah Anda di Semarang, siap dibagikan dengan penuh keberkahan.",
     icon: "CheckCircle2"
   }
 ];
@@ -490,19 +496,19 @@ export const FAQS = [
   },
   {
     q: "Apakah kambingnya memenuhi syarat syariat Islam?",
-    a: "Pasti. Semua hewan aqiqah di Nuur Rahma kami pastikan cukup umur (poel / minimal 1 tahun untuk kambing, 6 bulan untuk domba), dalam kondisi sehat, gemuk, tidak cacat fisik, dan disembelih oleh juru sembelih yang bersertifikat syar'i."
+    a: "Pasti. Semua hewan aqiqah di Aila Aqiqah kami pastikan cukup umur (poel / minimal 1 tahun untuk kambing, 6 bulan untuk domba), dalam kondisi sehat, gemuk, tidak cacat fisik, dan disembelih oleh juru sembelih yang bersertifikat syar'i."
   },
   {
-    q: "Bolehkah saya menyaksikan langsung proses penyembelihan?",
-    a: "Sangat diperbolehkan! Shohibul aqiqah atau perwakilan keluarga bisa hadir langsung di lokasi pemotongan. Jika berhalangan hadir, kami akan mengirimkan video dokumentasi beresolusi tinggi saat penyembelihan dengan pengucapan doa & nama anak yang jelas."
+    q: "Bolehkah saya menyaksikan langsung atau memilih kambing di kandang?",
+    a: "Sangat diperbolehkan! Aila Aqiqah memiliki kandang sendiri di Sadeng, Gunungpati Semarang. Shohibul aqiqah atau perwakilan keluarga bisa datang langsung untuk memilih, menimbang, dan menyaksikan penyembelihan. Jika berhalangan hadir, kami kirimkan video dokumentasi HD saat pemotongan."
   },
   {
     q: "Berapa kambing untuk aqiqah anak laki-laki dan perempuan?",
     a: "Berdasarkan sunnah Rasulullah SAW: 2 ekor kambing/domba untuk anak laki-laki, dan 1 ekor kambing/domba untuk anak perempuan. Namun bagi yang memiliki keterbatasan, aqiqah 1 ekor untuk anak laki-laki tetap sah secara hukum syariat."
   },
   {
-    q: "Apakah benar gratis ongkir untuk wilayah Semarang & Kendal?",
-    a: "Ya! Kami memberikan fasilitas GRATIS ONGKIR (Free Delivery) sampai ke depan pintu rumah untuk wilayah Kota Semarang, Ngaliyan, Mijen, Kaliwungu, Kendal kota, dan sekitarnya sesuai rute pengiriman harian kami."
+    q: "Apakah benar gratis ongkir untuk wilayah Semarang?",
+    a: "Ya! Kami memberikan fasilitas GRATIS ONGKIR (Free Delivery) sampai ke depan pintu rumah untuk wilayah Kota Semarang (Gunungpati, Banyumanik, Tembalang, Mijen, Ngaliyan, Semarang Kota) dan area jangkauan kami."
   },
   {
     q: "Bagaimana sistem pembayarannya? Apakah bisa COD?",
