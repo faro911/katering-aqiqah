@@ -122,7 +122,7 @@ export default function Hero() {
                 <div className="aspect-[4/3] w-full relative overflow-hidden">
                   <img
                     src="https://images.unsplash.com/photo-1544025162-d76694265947?w=800&auto=format&fit=crop&q=80"
-                    alt="Sajian Sate Kambing dan Nasi Box Aila Aqiqah Semarang"
+                    alt="Sajian Sate Kambing dan Nasi Box Bu Siti Catering & Aqiqah Semarang"
                     className="w-full h-full object-cover transform hover:scale-105 transition-transform duration-700"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-emerald-950 via-emerald-950/20 to-transparent" />
@@ -182,7 +182,7 @@ export default function Hero() {
                     ))}
                   </div>
                   <p className="font-bold text-stone-900 leading-tight">"Makanannya sedap, tidak prengus sama sekali!"</p>
-                  <p className="text-stone-500 text-[10px]">Ibu Rahayu - Banyumanik</p>
+                  <p className="text-stone-500 text-[10px]">Ibu Rahayu - Pedurungan</p>
                 </div>
               </div>
 

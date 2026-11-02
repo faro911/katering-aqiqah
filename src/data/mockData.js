@@ -1,30 +1,32 @@
-// Data informasi usaha & katalog Aila Aqiqah Semarang & Katering
+// Data informasi usaha & katalog Bu Siti Catering & Aqiqah Semarang (Ayu Catering)
 
 export const DEFAULT_BUSINESS_INFO = {
-  name: "Aila Aqiqah Semarang",
-  tagline: "Layanan Aqiqah & Katering Siap Saji Semarang",
-  slogan: "Syar'i, Higienis, Masakan Lezat Tanpa Bau Prengus & Berkah",
-  address: "Kelurahan Sadeng, Kecamatan Gunungpati, Kota Semarang, Jawa Tengah 50222",
-  addressNote: "Kandang Sendiri di Sadeng Gunungpati (Bisa Pilih & Timbang Langsung)",
-  whatsapp: "082323594374",
-  whatsappDisplay: "0823-2359-4374",
-  instagram: "@aila.aqiqah",
-  instagramUrl: "https://instagram.com/aila.aqiqah",
-  googleMapsUrl: "https://maps.app.goo.gl/hjrevRj3j28hUHZZ9",
-  mapsEmbedQuery: "Aila+Aqiqah+Semarang+Sadeng+Gunungpati",
-  openingHours: "Setiap Hari 07.00 – 17.00 WIB",
+  name: "Bu Siti Catering & Aqiqah Semarang",
+  shortName: "Bu Siti Catering & Aqiqah",
+  subName: "Ayu Catering Semarang",
+  tagline: "Layanan Katering Prasmanan, Nasi Kotak & Aqiqah Siap Saji Semarang",
+  slogan: "Halal, Higienis, Masakan Lezat Kaya Rempah & Pilihan Menu Komplit",
+  address: "Jl. Kanguru Selatan 9C No. 53, Gayamsari, Kota Semarang, Jawa Tengah 50248",
+  addressNote: "Gayamsari, Kota Semarang (Layanan Katering & Aqiqah Berpengalaman)",
+  whatsapp: "082136551067",
+  whatsappDisplay: "0821-3655-1067",
+  instagram: "@busiticatering_aqiqah",
+  instagramUrl: "https://instagram.com",
+  googleMapsUrl: "https://maps.app.goo.gl/xKBmHLdNMyiD8t1HA",
+  mapsEmbedQuery: "Jl.+Kanguru+Selatan+9C+No.+53+Gayamsari+Semarang",
+  openingHours: "Setiap Hari 06.00 – 21.00 WIB",
   deliveryAreas: [
-    "Kota Semarang",
-    "Gunungpati & Sadeng",
+    "Gayamsari & Pedurungan",
+    "Semarang Timur & Selatan",
+    "Semarang Tengah & Barat",
     "Banyumanik & Tembalang",
-    "Mijen & Ngaliyan",
-    "Ungaran & Kab. Semarang"
+    "Genuk & Sekitarnya"
   ],
   stats: {
-    satisfiedClients: "1.250+",
-    googleRating: "5.0",
-    totalReviews: "60+",
-    experienceYears: "5+"
+    satisfiedClients: "2.100+",
+    googleRating: "4.9",
+    totalReviews: "80+",
+    experienceYears: "10+"
   }
 };
 
@@ -38,10 +40,10 @@ export const ADVANTAGES = [
   },
   {
     id: 2,
-    title: "Punya Kandang Sendiri di Gunungpati",
-    desc: "Shohibul aqiqah dipersilakan datang langsung ke kandang kami di Sadeng, Gunungpati untuk memilih dan menimbang langsung kambing yang disukai.",
-    icon: "Eye",
-    badge: "Kandang Sendiri"
+    title: "Spesialis Katering & Aqiqah Komplit",
+    desc: "Melayani paket aqiqah siap saji, prasmanan pesta/hajatan, nasi box rapat, snack box, tumpeng, hingga catering harian kantor.",
+    icon: "Utensils",
+    badge: "Serba Lengkap"
   },
   {
     id: 3,
@@ -53,14 +55,14 @@ export const ADVANTAGES = [
   {
     id: 4,
     title: "Masakan Lezat Tanpa Bau Prengus",
-    desc: "Daging diolah dengan resep bumbu rempah nusantara khas Aila Aqiqah dengan cita rasa rumahan yang empuk dan bebas bau prengus.",
-    icon: "Utensils",
+    desc: "Daging diolah dengan bumbu rempah nusantara khas racikan Bu Siti. Daging empuk meresap, lezat mantap, dan dijamin bebas bau prengus.",
+    icon: "Flame",
     badge: "Koki Ahli"
   },
   {
     id: 5,
     title: "Gratis Ongkir Area Semarang",
-    desc: "Layanan antar tepat waktu dengan armada khusus untuk wilayah Kota Semarang (Gunungpati, Banyumanik, Mijen, Ngaliyan, Tembalang) dan sekitarnya.",
+    desc: "Layanan antar tepat waktu dengan armada khusus untuk wilayah Gayamsari, Pedurungan, Semarang Selatan, Timur, Barat, hingga Tembalang.",
     icon: "Truck",
     badge: "Free Delivery"
   },
@@ -74,7 +76,7 @@ export const ADVANTAGES = [
   {
     id: 7,
     title: "Penyaluran ke Panti Asuhan / Dhuafa",
-    desc: "Bagi yang ingin langsung bersedekah, kami siap menyalurkan masakan aqiqah ke panti asuhan atau pesantren binaan di Semarang.",
+    desc: "Bagi yang ingin langsung bersedekah, kami siap membantu menyalurkan masakan aqiqah ke panti asuhan atau pesantren binaan di Semarang.",
     icon: "HeartHandshake",
     badge: "Penyaluran Amanah"
   }
@@ -174,7 +176,7 @@ export const PACKAGES = [
     includes: [
       "1 Ekor Kambing Super Jantan Bobot Maksimal",
       "100 Box Nasi Premium Sekat 5",
-      "400 Tusuk Sate Bumbu Spesial Aila Aqiqah",
+      "400 Tusuk Sate Bumbu Spesial Bu Siti",
       "100 Porsi Gule/Tongseng/Krengsengan Rempah",
       "Pilihan Menu Pendamping Komplit",
       "Acar Nanas Segar, Emping Melinjo, Buah",
@@ -189,7 +191,7 @@ export const PACKAGES = [
   {
     id: "kebuli-istimewa",
     category: "kebuli",
-    name: "Paket Nasi Kebuli Kambing Aila Aqiqah",
+    name: "Paket Nasi Kebuli Kambing Bu Siti",
     badge: "Menu Khas Timur Tengah",
     popular: true,
     price: 2750000,
@@ -304,9 +306,9 @@ export const PACKAGES = [
   {
     id: "katering-prasmanan",
     category: "katering",
-    name: "Paket Katering Prasmanan Hajatan",
+    name: "Paket Katering Prasmanan Hajatan & Resepsi",
     badge: "Minimal 50 Porsi",
-    popular: false,
+    popular: true,
     price: 38000,
     priceNote: "per porsi",
     portion: "Mulai 50 Porsi",
@@ -327,7 +329,7 @@ export const PACKAGES = [
   {
     id: "katering-nasibox",
     category: "katering",
-    name: "Paket Nasi Kotak Syukuran & Rapat",
+    name: "Paket Nasi Kotak Syukuran & Rapat Kantor",
     badge: "Mulai 25 Box",
     popular: true,
     price: 25000,
@@ -401,10 +403,10 @@ export const GALLERY_ITEMS = [
   },
   {
     id: 5,
-    title: "Kandang Sendiri di Sadeng Gunungpati",
-    category: "Kandang & Hewan",
-    image: "https://images.unsplash.com/photo-1484557052118-f32bd25b45b5?w=800&auto=format&fit=crop&q=80",
-    desc: "Kambing & domba terawat bersih, sehat, bebas cacat dan cukup umur."
+    title: "Katering Prasmanan Hajatan Gayamsari",
+    category: "Katering & Prasmanan",
+    image: "https://images.unsplash.com/photo-1555244162-803834f70033?w=800&auto=format&fit=crop&q=80",
+    desc: "Penyajian prasmanan higienis, dekorasi rapi, dan hidangan hangat lengkap."
   },
   {
     id: 6,
@@ -420,44 +422,44 @@ export const TESTIMONIALS = [
     id: 1,
     name: "dr. Muhammad Firdaus, Sp.A",
     role: "Shohibul Aqiqah Putra Pertama",
-    location: "Gunungpati, Semarang",
+    location: "Gayamsari, Semarang",
     rating: 5,
     date: "1 minggu lalu (Google Review)",
     avatar: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
-    review: "Alhamdulillah sangat puas dengan Aila Aqiqah! Sangat transparan karena bisa pilih kambing langsung di kandang Sadeng. Sate dan gulenya benar-benar enak, tidak bau prengus sama sekali, bumbu meresap mantap. Video sembelih dikirim lengkap dengan nama anak. Sukses terus untuk Aila Aqiqah!",
+    review: "Alhamdulillah sangat puas dengan Bu Siti Catering & Aqiqah! Lokasinya di Gayamsari mudah diakses, komunikasi via WA sangat fast respons. Sate dan gulenya benar-benar enak, tidak bau prengus sama sekali, bumbunya mantap meresap. Sukses selalu untuk Bu Siti Catering!",
     packageOrdered: "Paket Nasi Box Standar 60 Box"
   },
   {
     id: 2,
     name: "Ibu Rahayu Kusumaningrum",
-    role: "Shohibul Aqiqah Putri Kedua",
-    location: "Banyumanik, Semarang",
+    role: "Pesanan Katering Syukuran & Resepsi",
+    location: "Pedurungan, Semarang",
     rating: 5,
     date: "3 minggu lalu (Google Review)",
     avatar: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150&auto=format&fit=crop&q=80",
-    review: "Pelayanannya ramah banget dan fast respon di WhatsApp. Gratis ongkir sampai ke Banyumanik dan datangnya tepat waktu sebelum acara mulai. Rasanya seperti masakan rumahan yang otentik dan gurih. Dapat sertifikat berbingkai cantik pula.",
-    packageOrdered: "Paket Nasi Kebuli 60 Box"
+    review: "Sudah langganan di Bu Siti Catering untuk acara keluarga. Nasi box dan prasmanannya selalu tepat waktu, porsi melimpah, dan cita rasanya konsisten enak. Tamu undangan pada memuji masakannya.",
+    packageOrdered: "Paket Prasmanan Hajatan 100 Porsi"
   },
   {
     id: 3,
     name: "Bpk. Hendro Prasetyo, S.Kom",
-    role: "Katering Syukuran Kantor & Aqiqah",
-    location: "Tembalang, Semarang",
+    role: "Katering Rapat Kantor & Aqiqah",
+    location: "Semarang Selatan",
     rating: 5,
     date: "1 bulan lalu (Google Review)",
     avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
-    review: "Sudah order 2 kali di Aila Aqiqah, pertama waktu aqiqah anak kembar, kedua untuk katering syukuran kantor di Tembalang. Makanannya konsisten sedap, porsi mantap, bento box rapi higienis. Recommended banget buat warga Semarang!",
+    review: "Pesan paket nasi box untuk aqiqah anak dan makan siang kantor. Bento box tertutup rapat dan higienis. Pilihan menu daging olahannya empuk dan bumbu rempahnya sangat medok. Rekomendasi utama di Semarang!",
     packageOrdered: "Paket Nasi Box Sultan 100 Box"
   },
   {
     id: 4,
     name: "Ustadz H. Ahmad Baihaqi",
     role: "Tokoh Masyarakat & Pelanggan Setia",
-    location: "Sadeng / Mijen, Semarang",
+    location: "Semarang Timur",
     rating: 5,
     date: "2 bulan lalu (Google Review)",
     avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&auto=format&fit=crop&q=80",
-    review: "Dari segi syariat penyembelihan sangat tertib, bacaan basmalah & takbir jelas menyebutkan nama anak. Dagingnya bersih, bumbunya medok meresap. Kandangnya bersih dan hewannya sehat poel. InsyaAllah berkah.",
+    review: "Dari segi syariat penyembelihan sangat tertib dan sesuai fiqih aqiqah. Video pemotongan dikirim dengan doa yang fasih menyebutkan nama buah hati. Masakannya bersih, halal, dan berkah.",
     packageOrdered: "Paket Kambing Masak Tipe Super"
   }
 ];
@@ -466,56 +468,56 @@ export const ORDER_STEPS = [
   {
     step: "01",
     title: "Pilih Paket & Konsultasi",
-    desc: "Gunakan kalkulator aqiqah di web atau hubungi CS WhatsApp kami untuk memilih paket sesuai kebutuhan & anggaran.",
+    desc: "Gunakan kalkulator aqiqah di web atau hubungi CS WhatsApp kami untuk memilih paket aqiqah atau katering sesuai kebutuhan & anggaran.",
     icon: "Calculator"
   },
   {
     step: "02",
-    title: "Pilih Hewan di Kandang & Jadwal",
-    desc: "Tentukan tanggal penyembelihan. Anda bisa memilih langsung hewan di kandang kami di Sadeng Gunungpati atau dipercayakan ke tim kami.",
+    title: "Pilih Hewan & Jadwal Acara",
+    desc: "Tentukan tanggal penyembelihan dan jam pengantaran. Anda dapat mempercayakan pemilihan hewan sehat & poel kepada tim ahli kami.",
     icon: "CalendarCheck"
   },
   {
     step: "03",
     title: "Penyembelihan Syar'i & Masak",
-    desc: "Hewan disembelih secara syar'i, didokumentasikan (video/foto), lalu dimasak oleh juru masak profesional higienis.",
+    desc: "Hewan disembelih secara syar'i, didokumentasikan (video/foto), lalu dimasak oleh juru masak berpengalaman higienis.",
     icon: "Flame"
   },
   {
     step: "04",
     title: "Antar Tepat Waktu & Santap",
-    desc: "Pesanan diantar langsung dalam kondisi hangat dan rapi ke alamat rumah Anda di Semarang, siap dibagikan dengan penuh keberkahan.",
+    desc: "Pesanan diantar langsung dalam kondisi hangat dan rapi ke alamat rumah Anda di Semarang, siap disajikan dengan penuh keberkahan.",
     icon: "CheckCircle2"
   }
 ];
 
 export const FAQS = [
   {
-    q: "Berapa hari minimal pemesanan aqiqah sebelum hari H?",
-    a: "Untuk kelancaran persiapan dan penjadwalan juru sembelih, kami sarankan pemesanan minimal H-3 atau H-7. Namun untuk kebutuhan mendesak / dadakan (H-1), silakan langsung konfirmasi via WhatsApp ke CS kami untuk cek ketersediaan kuota hari tersebut."
+    q: "Berapa hari minimal pemesanan aqiqah atau katering sebelum hari H?",
+    a: "Untuk kelancaran persiapan dan penjadwalan juru masak/sembelih, kami sarankan pemesanan minimal H-3 atau H-7. Namun untuk kebutuhan mendesak / dadakan (H-1), silakan langsung konfirmasi via WhatsApp ke CS kami untuk cek ketersediaan kuota hari tersebut."
   },
   {
-    q: "Apakah kambingnya memenuhi syarat syariat Islam?",
-    a: "Pasti. Semua hewan aqiqah di Aila Aqiqah kami pastikan cukup umur (poel / minimal 1 tahun untuk kambing, 6 bulan untuk domba), dalam kondisi sehat, gemuk, tidak cacat fisik, dan disembelih oleh juru sembelih yang bersertifikat syar'i."
+    q: "Apakah kambing aqiqahnya memenuhi syarat syariat Islam?",
+    a: "Pasti. Semua hewan aqiqah di Bu Siti Catering kami pastikan cukup umur (poel / minimal 1 tahun untuk kambing, 6 bulan untuk domba), dalam kondisi sehat, gemuk, tidak cacat fisik, dan disembelih oleh juru sembelih yang bersertifikat syar'i."
   },
   {
-    q: "Bolehkah saya menyaksikan langsung atau memilih kambing di kandang?",
-    a: "Sangat diperbolehkan! Aila Aqiqah memiliki kandang sendiri di Sadeng, Gunungpati Semarang. Shohibul aqiqah atau perwakilan keluarga bisa datang langsung untuk memilih, menimbang, dan menyaksikan penyembelihan. Jika berhalangan hadir, kami kirimkan video dokumentasi HD saat pemotongan."
+    q: "Apakah ada dokumentasi penyembelihan hewan aqiqah?",
+    a: "Ya, tentu! Kami menyediakan dokumentasi video dan foto beresolusi tinggi saat proses penyembelihan dengan pengucapan doa & nama buah hati secara jelas, lalu dikirimkan langsung ke nomor WhatsApp Anda."
   },
   {
     q: "Berapa kambing untuk aqiqah anak laki-laki dan perempuan?",
     a: "Berdasarkan sunnah Rasulullah SAW: 2 ekor kambing/domba untuk anak laki-laki, dan 1 ekor kambing/domba untuk anak perempuan. Namun bagi yang memiliki keterbatasan, aqiqah 1 ekor untuk anak laki-laki tetap sah secara hukum syariat."
   },
   {
-    q: "Apakah benar gratis ongkir untuk wilayah Semarang?",
-    a: "Ya! Kami memberikan fasilitas GRATIS ONGKIR (Free Delivery) sampai ke depan pintu rumah untuk wilayah Kota Semarang (Gunungpati, Banyumanik, Tembalang, Mijen, Ngaliyan, Semarang Kota) dan area jangkauan kami."
+    q: "Apakah benar gratis ongkir untuk wilayah Kota Semarang?",
+    a: "Ya! Kami memberikan fasilitas GRATIS ONGKIR (Free Delivery) sampai ke depan pintu rumah untuk wilayah Gayamsari, Pedurungan, Semarang Timur, Semarang Selatan, Semarang Tengah, Banyumanik, dan area jangkauan kami."
   },
   {
     q: "Bagaimana sistem pembayarannya? Apakah bisa COD?",
     a: "Sistem pembayaran sangat aman dan fleksibel. Anda cukup membayar uang muka (DP) sebesar 20-30% sebagai tanda jadi penjadwalan, dan pelunasan sisanya dapat ditransfer atau dibayarkan secara tunai (COD) saat pesanan tiba di rumah Anda."
   },
   {
-    q: "Selain aqiqah, apakah melayani katering acara umum lainnya?",
-    a: "Ya, kami melayani katering prasmanan dan nasi box untuk berbagai tasyakuran seperti khitanan, pernikahan, pengajian, syukuran rumah baru, hingga catering makan siang kantor/perusahaan."
+    q: "Selain aqiqah, layanan katering apa saja yang disediakan?",
+    a: "Kami menyediakan katering prasmanan resepsi/hajatan, nasi kotak bento rapat/pengajian, snack box, nasi tumpeng komplit, nasi besek tradisional, hingga katering makan siang harian kantor & instansi."
   }
 ];

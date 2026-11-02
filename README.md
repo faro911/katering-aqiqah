@@ -1,8 +1,8 @@
-# 🐐 Web Template Aqiqah & Katering Nusantara (Aila Aqiqah Semarang)
+# 🐐 Web Template Aqiqah & Katering Nusantara (Bu Siti Catering & Aqiqah Semarang)
 
-Website modern, elegan, responsif, dan siap produksi untuk UMKM jasa **Aqiqah & Katering Siap Saji**, dikembangkan dengan **React 19**, **Vite**, dan **Tailwind CSS**. Didesain khusus sebagai showcase template profesional dengan tingkat konversi tinggi untuk menawarkan jasa pembuatan website ke calon klien UMKM.
+Website modern, elegan, responsif, dan siap produksi untuk UMKM jasa **Katering & Aqiqah Siap Saji**, dikembangkan dengan **React 19**, **Vite**, dan **Tailwind CSS**. Didesain khusus sebagai showcase template profesional dengan tingkat konversi tinggi untuk menawarkan jasa pembuatan website ke calon klien UMKM.
 
-Website ini menggunakan profil usaha nyata dari Google Maps: **Aila Aqiqah Semarang** ([Lihat Profil Google Maps](https://maps.app.goo.gl/hjrevRj3j28hUHZZ9)).
+Website ini menggunakan profil usaha nyata dari Google Maps: **Bu Siti Catering & Aqiqah Semarang (Ayu Catering Semarang)** ([Lihat Profil Google Maps](https://maps.app.goo.gl/xKBmHLdNMyiD8t1HA)).
 
 ---
 
@@ -29,11 +29,11 @@ Website ini menggunakan profil usaha nyata dari Google Maps: **Aila Aqiqah Semar
 4. **🛡️ 7 Keunggulan Syariat & Layanan**:
    - Standar hewan poel/sehat, Juru Sembelih Halal (JULEHA), video dokumentasi HD atas nama anak, garansi tanpa bau prengus, free ongkir, sertifikat berbingkai, dan penyaluran amanah.
 
-5. **⭐ Ulasan Google Maps Terverifikasi (Rating 5.0 / 5.0)**:
-   - Menampilkan ulasan autentik dari warga Kota Semarang (Gunungpati, Banyumanik, Tembalang, Mijen) lengkap dengan link langsung ke Google Maps.
+5. **⭐ Ulasan Google Maps Terverifikasi (Rating 4.9 / 5.0)**:
+   - Menampilkan ulasan autentik dari warga Kota Semarang (Gayamsari, Pedurungan, Semarang Selatan, Semarang Timur) lengkap dengan link langsung ke Google Maps.
 
 6. **📍 Lokasi Kantor & Peta Interaktif**:
-   - Terintegrasi iframe Google Maps lokasi Sadeng, Kec. Gunungpati, Kota Semarang (Kandang Sendiri).
+   - Terintegrasi iframe Google Maps lokasi Jl. Kanguru Selatan 9C No. 53, Gayamsari, Kota Semarang.
 
 7. **📱 Mobile-First & Floating WhatsApp**:
    - Tampilan responsif di semua perangkat (smartphone, tablet, laptop).
@@ -97,11 +97,10 @@ git push -u origin main
 
 ---
 
-## 📋 Informasi Profil Usaha (Aila Aqiqah Semarang)
-- **Nama Usaha**: Aila Aqiqah Semarang
-- **Alamat**: Kelurahan Sadeng, Kecamatan Gunungpati, Kota Semarang, Jawa Tengah 50222 (Kandang Sendiri di Sadeng)
-- **Jam Buka**: Setiap Hari 07.00 – 17.00 WIB
-- **WhatsApp**: 0823-2359-4374
-- **Instagram**: [@aila.aqiqah](https://instagram.com/aila.aqiqah)
-- **Cakupan Free Ongkir**: Kota Semarang (Gunungpati, Banyumanik, Mijen, Tembalang, Ngaliyan), Ungaran / Kab. Semarang sekitarnya.
-- **Link Google Maps**: [https://maps.app.goo.gl/hjrevRj3j28hUHZZ9](https://maps.app.goo.gl/hjrevRj3j28hUHZZ9)
+## 📋 Informasi Profil Usaha (Bu Siti Catering & Aqiqah Semarang)
+- **Nama Usaha**: Bu Siti Catering & Aqiqah Semarang (Ayu Catering Semarang)
+- **Alamat**: Jl. Kanguru Selatan 9C No. 53, Gayamsari, Kota Semarang, Jawa Tengah 50248
+- **Jam Buka**: Setiap Hari 06.00 – 21.00 WIB
+- **WhatsApp**: 0821-3655-1067
+- **Cakupan Free Ongkir**: Gayamsari, Pedurungan, Semarang Timur, Semarang Selatan, Semarang Tengah, Banyumanik, dsb.
+- **Link Google Maps**: [https://maps.app.goo.gl/xKBmHLdNMyiD8t1HA](https://maps.app.goo.gl/xKBmHLdNMyiD8t1HA)

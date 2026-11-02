@@ -9,7 +9,7 @@ export function BusinessProvider({ children }) {
       const saved = localStorage.getItem('demo_business_info');
       if (saved) {
         const parsed = JSON.parse(saved);
-        if (parsed.name && parsed.name.includes('Nuur Rahma')) {
+        if (parsed.name && !parsed.name.includes('Bu Siti')) {
           localStorage.removeItem('demo_business_info');
           return DEFAULT_BUSINESS_INFO;
         }
