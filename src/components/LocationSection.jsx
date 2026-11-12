@@ -16,10 +16,10 @@ export default function LocationSection() {
             Lokasi Dapur & Kantor
           </div>
           <h2 className="text-2xl sm:text-4xl font-extrabold text-stone-900 tracking-tight">
-            Kunjungi Kami di Gayamsari, Kota Semarang
+            Kunjungi Kami di Candisari, Kota Semarang
           </h2>
           <p className="text-stone-600 text-sm sm:text-base">
-            Dapur dan kantor kami mudah dijangkau di Gayamsari, Kota Semarang. Kami siap melayani pesanan katering prasmanan, nasi box, dan aqiqah siap saji se-Semarang Raya.
+            Kantor layanan kami mudah dijangkau di Jl. Tentara Pelajar No. 51 Candisari, Kota Semarang. Kami siap melayani konsultasi dan pengiriman pesanan aqiqah siap saji se-Semarang Raya.
           </p>
         </div>
 
@@ -107,7 +107,7 @@ export default function LocationSection() {
             {/* Google Maps Embed iframe with safety check */}
             <iframe
               title={`Lokasi Google Maps ${businessInfo.name}`}
-              src={`https://maps.google.com/maps?q=${encodeURIComponent(businessInfo.mapsEmbedQuery || 'Bu+Siti+Catering+Semarang')}&t=&z=15&ie=UTF8&iwloc=&output=embed`}
+              src={`https://maps.google.com/maps?q=${encodeURIComponent(businessInfo.mapsEmbedQuery || 'Rumah+Aqiqah+Semarang')}&t=&z=15&ie=UTF8&iwloc=&output=embed`}
               className="w-full h-80 sm:h-96 border-0"
               allowFullScreen=""
               loading="lazy"

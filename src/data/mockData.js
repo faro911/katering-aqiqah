@@ -1,32 +1,32 @@
-// Data informasi usaha & katalog Bu Siti Catering & Aqiqah Semarang (Ayu Catering)
+// Data informasi usaha & katalog Rumah Aqiqah Semarang
 
 export const DEFAULT_BUSINESS_INFO = {
-  name: "Bu Siti Catering & Aqiqah Semarang",
-  shortName: "Bu Siti Catering & Aqiqah",
-  subName: "Ayu Catering Semarang",
-  tagline: "Layanan Katering Prasmanan, Nasi Kotak & Aqiqah Siap Saji Semarang",
-  slogan: "Halal, Higienis, Masakan Lezat Kaya Rempah & Pilihan Menu Komplit",
-  address: "Jl. Kanguru Selatan 9C No. 53, Gayamsari, Kota Semarang, Jawa Tengah 50248",
-  addressNote: "Gayamsari, Kota Semarang (Layanan Katering & Aqiqah Berpengalaman)",
-  whatsapp: "082136551067",
-  whatsappDisplay: "0821-3655-1067",
-  instagram: "@busiticatering_aqiqah",
-  instagramUrl: "https://instagram.com",
-  googleMapsUrl: "https://maps.app.goo.gl/xKBmHLdNMyiD8t1HA",
-  mapsEmbedQuery: "Jl.+Kanguru+Selatan+9C+No.+53+Gayamsari+Semarang",
-  openingHours: "Setiap Hari 06.00 – 21.00 WIB",
+  name: "Rumah Aqiqah Semarang",
+  shortName: "Rumah Aqiqah",
+  subName: "Layanan Aqiqah Praktis & Syar'i",
+  tagline: "Layanan Jasa Aqiqah & Katering Siap Saji Terpercaya di Semarang",
+  slogan: "Syar'i, Higienis, Masakan Lezat Tanpa Bau Prengus & Berkah",
+  address: "Jl. Tentara Pelajar No. 51, Jomblang, Kec. Candisari, Kota Semarang, Jawa Tengah 50256",
+  addressNote: "Candisari, Kota Semarang (Layanan Aqiqah Profesional & Berpengalaman)",
+  whatsapp: "085100402001",
+  whatsappDisplay: "0851-0040-2001",
+  instagram: "@rumahaqiqahofficial",
+  instagramUrl: "https://instagram.com/rumahaqiqahofficial",
+  googleMapsUrl: "https://maps.app.goo.gl/jDB2iR1cd16eLoQy9",
+  mapsEmbedQuery: "Jl.+Tentara+Pelajar+No.+51+Jomblang+Candisari+Semarang",
+  openingHours: "Senin – Minggu: 07.30 – 16.30 WIB (CS WA 24 Jam)",
   deliveryAreas: [
-    "Gayamsari & Pedurungan",
-    "Semarang Timur & Selatan",
-    "Semarang Tengah & Barat",
-    "Banyumanik & Tembalang",
-    "Genuk & Sekitarnya"
+    "Candisari & Jomblang",
+    "Tembalang & Banyumanik",
+    "Semarang Selatan & Tengah",
+    "Semarang Timur & Pedurungan",
+    "Semarang Barat & Ngaliyan"
   ],
   stats: {
-    satisfiedClients: "2.100+",
+    satisfiedClients: "3.500+",
     googleRating: "4.9",
-    totalReviews: "80+",
-    experienceYears: "10+"
+    totalReviews: "250+",
+    experienceYears: "12+"
   }
 };
 
@@ -40,10 +40,10 @@ export const ADVANTAGES = [
   },
   {
     id: 2,
-    title: "Spesialis Katering & Aqiqah Komplit",
-    desc: "Melayani paket aqiqah siap saji, prasmanan pesta/hajatan, nasi box rapat, snack box, tumpeng, hingga catering harian kantor.",
-    icon: "Utensils",
-    badge: "Serba Lengkap"
+    title: "Pelopor Aqiqah Praktis & Berpengalaman",
+    desc: "Telah melayani ribuan keluarga dengan standar dapur modern, higienis, kemasan bento elegan, dan rasa yang konsisten.",
+    icon: "Award",
+    badge: "Terpercaya"
   },
   {
     id: 3,
@@ -55,14 +55,14 @@ export const ADVANTAGES = [
   {
     id: 4,
     title: "Masakan Lezat Tanpa Bau Prengus",
-    desc: "Daging diolah dengan bumbu rempah nusantara khas racikan Bu Siti. Daging empuk meresap, lezat mantap, dan dijamin bebas bau prengus.",
+    desc: "Daging diolah dengan resep bumbu rempah nusantara khas Rumah Aqiqah. Daging empuk meresap, lezat nikmat, dan bebas bau prengus.",
     icon: "Flame",
     badge: "Koki Ahli"
   },
   {
     id: 5,
     title: "Gratis Ongkir Area Semarang",
-    desc: "Layanan antar tepat waktu dengan armada khusus untuk wilayah Gayamsari, Pedurungan, Semarang Selatan, Timur, Barat, hingga Tembalang.",
+    desc: "Layanan antar tepat waktu dengan armada khusus untuk wilayah Candisari, Tembalang, Banyumanik, Pedurungan, hingga Semarang Barat.",
     icon: "Truck",
     badge: "Free Delivery"
   },
@@ -176,7 +176,7 @@ export const PACKAGES = [
     includes: [
       "1 Ekor Kambing Super Jantan Bobot Maksimal",
       "100 Box Nasi Premium Sekat 5",
-      "400 Tusuk Sate Bumbu Spesial Bu Siti",
+      "400 Tusuk Sate Bumbu Spesial Rumah Aqiqah",
       "100 Porsi Gule/Tongseng/Krengsengan Rempah",
       "Pilihan Menu Pendamping Komplit",
       "Acar Nanas Segar, Emping Melinjo, Buah",
@@ -191,7 +191,7 @@ export const PACKAGES = [
   {
     id: "kebuli-istimewa",
     category: "kebuli",
-    name: "Paket Nasi Kebuli Kambing Bu Siti",
+    name: "Paket Nasi Kebuli Kambing Rumah Aqiqah",
     badge: "Menu Khas Timur Tengah",
     popular: true,
     price: 2750000,
@@ -403,10 +403,10 @@ export const GALLERY_ITEMS = [
   },
   {
     id: 5,
-    title: "Katering Prasmanan Hajatan Gayamsari",
-    category: "Katering & Prasmanan",
+    title: "Kantor & Layanan Rumah Aqiqah Candisari",
+    category: "Layanan & Fasilitas",
     image: "https://images.unsplash.com/photo-1555244162-803834f70033?w=800&auto=format&fit=crop&q=80",
-    desc: "Penyajian prasmanan higienis, dekorasi rapi, dan hidangan hangat lengkap."
+    desc: "Layanan konsultasi ramah, tertib syariat, dan pengantaran tepat waktu."
   },
   {
     id: 6,
@@ -422,44 +422,44 @@ export const TESTIMONIALS = [
     id: 1,
     name: "dr. Muhammad Firdaus, Sp.A",
     role: "Shohibul Aqiqah Putra Pertama",
-    location: "Gayamsari, Semarang",
+    location: "Candisari, Semarang",
     rating: 5,
     date: "1 minggu lalu (Google Review)",
     avatar: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
-    review: "Alhamdulillah sangat puas dengan Bu Siti Catering & Aqiqah! Lokasinya di Gayamsari mudah diakses, komunikasi via WA sangat fast respons. Sate dan gulenya benar-benar enak, tidak bau prengus sama sekali, bumbunya mantap meresap. Sukses selalu untuk Bu Siti Catering!",
+    review: "Alhamdulillah sangat puas dengan Rumah Aqiqah Semarang! Lokasinya di Tentara Pelajar mudah diakses, komunikasi via WA sangat fast respons dan ramah. Sate dan gulenya benar-benar enak, tidak bau prengus sama sekali, bumbunya mantap meresap. Video sembelih dikirim lengkap dengan nama anak. Sukses selalu!",
     packageOrdered: "Paket Nasi Box Standar 60 Box"
   },
   {
     id: 2,
     name: "Ibu Rahayu Kusumaningrum",
-    role: "Pesanan Katering Syukuran & Resepsi",
-    location: "Pedurungan, Semarang",
+    role: "Pesanan Aqiqah Putri Kedua",
+    location: "Tembalang, Semarang",
     rating: 5,
     date: "3 minggu lalu (Google Review)",
     avatar: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150&auto=format&fit=crop&q=80",
-    review: "Sudah langganan di Bu Siti Catering untuk acara keluarga. Nasi box dan prasmanannya selalu tepat waktu, porsi melimpah, dan cita rasanya konsisten enak. Tamu undangan pada memuji masakannya.",
-    packageOrdered: "Paket Prasmanan Hajatan 100 Porsi"
+    review: "Sudah order yang kedua kalinya di Rumah Aqiqah Semarang. Nasi bento kebuli dan sate kambingnya selalu tepat waktu, porsi pas mengenyangkan, dan kemasannya sangat rapi elegan. Tamu dan keluarga besar pada memuji masakannya.",
+    packageOrdered: "Paket Nasi Kebuli 60 Box"
   },
   {
     id: 3,
     name: "Bpk. Hendro Prasetyo, S.Kom",
-    role: "Katering Rapat Kantor & Aqiqah",
-    location: "Semarang Selatan",
+    role: "Shohibul Aqiqah Kembar & Katering",
+    location: "Banyumanik, Semarang",
     rating: 5,
     date: "1 bulan lalu (Google Review)",
     avatar: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
-    review: "Pesan paket nasi box untuk aqiqah anak dan makan siang kantor. Bento box tertutup rapat dan higienis. Pilihan menu daging olahannya empuk dan bumbu rempahnya sangat medok. Rekomendasi utama di Semarang!",
+    review: "Pesan paket nasi box untuk aqiqah anak kembar. Bento box tertutup rapat, higienis, dan wangi rempahnya mantap. Pilihan olahan dagingnya empuk tanpa bau prengus. Layanan antar tepat waktu langsung sampai depan rumah.",
     packageOrdered: "Paket Nasi Box Sultan 100 Box"
   },
   {
     id: 4,
     name: "Ustadz H. Ahmad Baihaqi",
     role: "Tokoh Masyarakat & Pelanggan Setia",
-    location: "Semarang Timur",
+    location: "Semarang Selatan",
     rating: 5,
     date: "2 bulan lalu (Google Review)",
     avatar: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&auto=format&fit=crop&q=80",
-    review: "Dari segi syariat penyembelihan sangat tertib dan sesuai fiqih aqiqah. Video pemotongan dikirim dengan doa yang fasih menyebutkan nama buah hati. Masakannya bersih, halal, dan berkah.",
+    review: "Dari segi syariat penyembelihan sangat tertib dan sesuai fiqih aqiqah. Video pemotongan dikirim dengan doa yang fasih menyebutkan nama buah hati. Hewan sehat poel, daging bersih, halal, dan berkah.",
     packageOrdered: "Paket Kambing Masak Tipe Super"
   }
 ];
@@ -498,7 +498,7 @@ export const FAQS = [
   },
   {
     q: "Apakah kambing aqiqahnya memenuhi syarat syariat Islam?",
-    a: "Pasti. Semua hewan aqiqah di Bu Siti Catering kami pastikan cukup umur (poel / minimal 1 tahun untuk kambing, 6 bulan untuk domba), dalam kondisi sehat, gemuk, tidak cacat fisik, dan disembelih oleh juru sembelih yang bersertifikat syar'i."
+    a: "Pasti. Semua hewan aqiqah di Rumah Aqiqah Semarang kami pastikan cukup umur (poel / minimal 1 tahun untuk kambing, 6 bulan untuk domba), dalam kondisi sehat, gemuk, tidak cacat fisik, dan disembelih oleh juru sembelih yang bersertifikat syar'i."
   },
   {
     q: "Apakah ada dokumentasi penyembelihan hewan aqiqah?",
@@ -510,7 +510,7 @@ export const FAQS = [
   },
   {
     q: "Apakah benar gratis ongkir untuk wilayah Kota Semarang?",
-    a: "Ya! Kami memberikan fasilitas GRATIS ONGKIR (Free Delivery) sampai ke depan pintu rumah untuk wilayah Gayamsari, Pedurungan, Semarang Timur, Semarang Selatan, Semarang Tengah, Banyumanik, dan area jangkauan kami."
+    a: "Ya! Kami memberikan fasilitas GRATIS ONGKIR (Free Delivery) sampai ke depan pintu rumah untuk wilayah Candisari, Jomblang, Tembalang, Banyumanik, Semarang Selatan, Semarang Tengah, Pedurungan, hingga Semarang Barat."
   },
   {
     q: "Bagaimana sistem pembayarannya? Apakah bisa COD?",
@@ -518,6 +518,6 @@ export const FAQS = [
   },
   {
     q: "Selain aqiqah, layanan katering apa saja yang disediakan?",
-    a: "Kami menyediakan katering prasmanan resepsi/hajatan, nasi kotak bento rapat/pengajian, snack box, nasi tumpeng komplit, nasi besek tradisional, hingga katering makan siang harian kantor & instansi."
+    a: "Kami menyediakan katering prasmanan resepsi/hajatan, nasi kotak bento rapat/pengajian, snack box, nasi kebuli, nasi mandhi, hingga katering makan siang harian kantor & instansi."
   }
 ];

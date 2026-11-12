@@ -1,8 +1,8 @@
-# 🐐 Web Template Aqiqah & Katering Nusantara (Bu Siti Catering & Aqiqah Semarang)
+# 🐐 Web Template Aqiqah & Katering Nusantara (Rumah Aqiqah Semarang)
 
-Website modern, elegan, responsif, dan siap produksi untuk UMKM jasa **Katering & Aqiqah Siap Saji**, dikembangkan dengan **React 19**, **Vite**, dan **Tailwind CSS**. Didesain khusus sebagai showcase template profesional dengan tingkat konversi tinggi untuk menawarkan jasa pembuatan website ke calon klien UMKM.
+Website modern, elegan, responsif, dan siap produksi untuk UMKM jasa **Aqiqah & Katering Siap Saji**, dikembangkan dengan **React 19**, **Vite**, dan **Tailwind CSS**. Didesain khusus sebagai showcase template profesional dengan tingkat konversi tinggi untuk menawarkan jasa pembuatan website ke calon klien UMKM.
 
-Website ini menggunakan profil usaha nyata dari Google Maps: **Bu Siti Catering & Aqiqah Semarang (Ayu Catering Semarang)** ([Lihat Profil Google Maps](https://maps.app.goo.gl/xKBmHLdNMyiD8t1HA)).
+Website ini menggunakan profil usaha nyata dari Google Maps: **Rumah Aqiqah Semarang** ([Lihat Profil Google Maps](https://maps.app.goo.gl/jDB2iR1cd16eLoQy9)).
 
 ---
 
@@ -30,10 +30,10 @@ Website ini menggunakan profil usaha nyata dari Google Maps: **Bu Siti Catering 
    - Standar hewan poel/sehat, Juru Sembelih Halal (JULEHA), video dokumentasi HD atas nama anak, garansi tanpa bau prengus, free ongkir, sertifikat berbingkai, dan penyaluran amanah.
 
 5. **⭐ Ulasan Google Maps Terverifikasi (Rating 4.9 / 5.0)**:
-   - Menampilkan ulasan autentik dari warga Kota Semarang (Gayamsari, Pedurungan, Semarang Selatan, Semarang Timur) lengkap dengan link langsung ke Google Maps.
+   - Menampilkan ulasan autentik dari warga Kota Semarang (Candisari, Tembalang, Banyumanik, Semarang Selatan, Semarang Barat) lengkap dengan link langsung ke Google Maps.
 
 6. **📍 Lokasi Kantor & Peta Interaktif**:
-   - Terintegrasi iframe Google Maps lokasi Jl. Kanguru Selatan 9C No. 53, Gayamsari, Kota Semarang.
+   - Terintegrasi iframe Google Maps lokasi Jl. Tentara Pelajar No. 51, Jomblang, Candisari, Kota Semarang.
 
 7. **📱 Mobile-First & Floating WhatsApp**:
    - Tampilan responsif di semua perangkat (smartphone, tablet, laptop).
@@ -97,10 +97,10 @@ git push -u origin main
 
 ---
 
-## 📋 Informasi Profil Usaha (Bu Siti Catering & Aqiqah Semarang)
-- **Nama Usaha**: Bu Siti Catering & Aqiqah Semarang (Ayu Catering Semarang)
-- **Alamat**: Jl. Kanguru Selatan 9C No. 53, Gayamsari, Kota Semarang, Jawa Tengah 50248
-- **Jam Buka**: Setiap Hari 06.00 – 21.00 WIB
-- **WhatsApp**: 0821-3655-1067
-- **Cakupan Free Ongkir**: Gayamsari, Pedurungan, Semarang Timur, Semarang Selatan, Semarang Tengah, Banyumanik, dsb.
-- **Link Google Maps**: [https://maps.app.goo.gl/xKBmHLdNMyiD8t1HA](https://maps.app.goo.gl/xKBmHLdNMyiD8t1HA)
+## 📋 Informasi Profil Usaha (Rumah Aqiqah Semarang)
+- **Nama Usaha**: Rumah Aqiqah Semarang
+- **Alamat**: Jl. Tentara Pelajar No. 51, Jomblang, Kec. Candisari, Kota Semarang, Jawa Tengah 50256
+- **Jam Buka**: Senin – Minggu: 07.30 – 16.30 WIB (CS WhatsApp 24 Jam)
+- **WhatsApp**: 0851-0040-2001
+- **Cakupan Free Ongkir**: Candisari, Tembalang, Banyumanik, Pedurungan, Semarang Selatan, Barat, dsb.
+- **Link Google Maps**: [https://maps.app.goo.gl/jDB2iR1cd16eLoQy9](https://maps.app.goo.gl/jDB2iR1cd16eLoQy9)
